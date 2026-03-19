@@ -4,8 +4,7 @@
 Firmware engineer focused on **ISA-level performance profiling**, bare-metal optimisation,
 and DSP/NN kernel benchmarking on resource-constrained microcontrollers.
 
-Currently completing **M.Sc. Embedded Systems** at TU Chemnitz,
-thesis conducted in collaboration with **Infineon Technologies**, Dresden.
+M.Sc. Embedded Systems — **TU Chemnitz** · Thesis conducted at **Infineon Technologies**, Dresden (2025).
 
 ---
 
@@ -38,8 +37,8 @@ thesis conducted in collaboration with **Infineon Technologies**, Dresden.
 
 | Repo | What it is |
 |---|---|
-| [arm-riscv-dsp-benchmark](https://github.com/Karthik-Swaminathan98/arm-riscv-dsp-benchmark) | Thesis benchmarking harness — cycle/stack/code-size on real silicon |
-| [embedded-benchmark-analysis](https://github.com/Karthik-Swaminathan98/embedded-benchmark-analysis) | Python scripts — objdump call-graph parser, .map analyser, visualisation |
+| [arm-riscv-benchmark-results](https://github.com/Karthik-Swaminathan98/arm-riscv-benchmark-results) | Full cross-architecture DSP, NN & model inference results |
+| [mcu-function-size-analyser](https://github.com/Karthik-Swaminathan98/mcu-function-size-analyser) | Python tool — dependency-aware function code size analyser |
 
 ---
 
