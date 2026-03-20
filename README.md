@@ -25,6 +25,7 @@ M.Sc. Embedded Systems — **TU Chemnitz** · Thesis conducted at **Infineon Tec
 | Telink B91 | Andes D25F (RV32IMACFDBP) | riscv-32-elf-gcc 7.4 / AndeSight RDS |
 | STM32 | ARM Cortex-M | Keil / GCC |
 | ESP32 | Xtensa LX6 | ESP-IDF |
+| Raspberry Pi B+ | ARM Cortex-A53 (ARMv8-A) | GCC / Raspberry Pi OS |
 
 ### Tools & Libraries
 
@@ -42,6 +43,6 @@ M.Sc. Embedded Systems — **TU Chemnitz** · Thesis conducted at **Infineon Tec
 
 ---
 
-📍 Chemnitz / Dresden, Germany &nbsp;·&nbsp; Open to full-time EU roles
+📍 Germany &nbsp;·&nbsp; Open to full-time EU roles
 📧 karthik94870@gmail.com
 🔗 [linkedin.com/in/karthik-swaminathan98](https://linkedin.com/in/karthik-swaminathan98)
