@@ -4,17 +4,17 @@
 Firmware engineer focused on **ISA-level performance profiling**, bare-metal optimisation,
 and DSP/NN kernel benchmarking on resource-constrained microcontrollers.
 
-M.Sc. Embedded Systems — **TU Chemnitz** · Thesis conducted at **Infineon Technologies**, Dresden (2025).
+M.Sc. Embedded Systems @ **TU Chemnitz** · Thesis conducted at **Infineon Technologies**, Dresden (2025).
 
 ---
 
 ### What I work on
 
 - Cycle-accurate benchmarking using **DWT** (ARM) and **NDS_MCYCLE / NDS_MINSTRET CSRs** (RISC-V)
-- Cross-architecture **CMSIS-DSP/NN vs NMSIS/Andes** kernel analysis — FFT, FIR, convolution, pooling
+- Cross-architecture **CMSIS-DSP/NN vs NMSIS/Andes** kernel analysis like FFT, FIR, convolution, pooling
 - Bare-metal firmware: linker scripts, RAM execution, stack-paint measurement
 - **TFLite Micro** inference deployment on ARM Cortex-M4 (PSoC6)
-- Hardware simulation: **QEMU**, **Renode** — bare-metal firmware without physical boards
+- Hardware simulation: **QEMU**, **Renode**  bare-metal firmware without physical boards
 - Python tooling: objdump call-graph parser, .map file code-size analyser
 
 ### Platforms
