@@ -1,48 +1,101 @@
 # Karthik Swaminathan
-### Embedded Firmware Engineer · ARM Cortex-M & RISC-V
 
-Firmware engineer focused on **ISA-level performance profiling**, bare-metal optimisation,
-and DSP/NN kernel benchmarking on resource-constrained microcontrollers.
+### Embedded Firmware Engineer | ARM Cortex-M • RISC-V • Embedded C/C++
 
-M.Sc. Embedded Systems @ **TU Chemnitz** · Thesis conducted at **Infineon Technologies**, Dresden (2025).
+Firmware engineer with industry experience at **Bosch** and **Infineon Technologies**, developing low-level embedded software, optimizing firmware performance, and benchmarking embedded systems on real hardware.
 
----
+My work focuses on firmware development, microcontroller architecture, hardware-software interaction, performance analysis, and resource-constrained embedded systems.
 
-### What I work on
-
-- Cycle-accurate benchmarking using **DWT** (ARM) and **NDS_MCYCLE / NDS_MINSTRET CSRs** (RISC-V)
-- Cross-architecture **CMSIS-DSP/NN vs NMSIS/Andes** kernel analysis like FFT, FIR, convolution, pooling
-- Bare-metal firmware: linker scripts, RAM execution, stack-paint measurement
-- **TFLite Micro** inference deployment on ARM Cortex-M4 (PSoC6)
-- Hardware simulation: **QEMU**, **Renode**  bare-metal firmware without physical boards
-- Python tooling: objdump call-graph parser, .map file code-size analyser
-
-### Platforms
-
-| Board | Core | Toolchain |
-|---|---|---|
-| CY8CKIT-062 (PSoC6) | ARM Cortex-M4 (Armv7E-M) | GNU ARM 13.3 / ModusToolbox 3.4 |
-| Telink B91 | Andes D25F (RV32IMACFDBP) | riscv-32-elf-gcc 7.4 / AndeSight RDS |
-| STM32 | ARM Cortex-M | Keil / GCC |
-| ESP32 | Xtensa LX6 | ESP-IDF |
-| Raspberry Pi B+ | ARM Cortex-A53 (ARMv8-A) | GCC / Raspberry Pi OS |
-
-### Tools & Libraries
-
-`CMSIS-DSP` `CMSIS-NN` `NMSIS-DSP` `NMSIS-NN` `Andes-DSP`
-`objdump` `GDB` `JTAG/SWD` `ModusToolbox` `AndeSight` `QEMU` `Renode`
+**M.Sc. Embedded Systems** – Technische Universität Chemnitz  
+Master's Thesis conducted at **Infineon Technologies, Dresden**
 
 ---
 
-### Pinned repos
+## What I Work On
 
-| Repo | What it is |
-|---|---|
-| [arm-riscv-benchmark-results](https://github.com/Karthik-Swaminathan98/arm-riscv-benchmark-results) | Full cross-architecture DSP, NN & model inference results |
-| [mcu-function-size-analyser](https://github.com/Karthik-Swaminathan98/mcu-function-size-analyser) | Python tool — dependency-aware function code size analyser |
+- Embedded firmware development using **Embedded C/C++** and **Bare-Metal Programming**
+- Firmware optimization through **linker scripts**, memory placement, compiler tuning, and ARM Helium (MVE)
+- Cycle-accurate benchmarking using **DWT** (ARM) and **RISC-V hardware performance counters**
+- Performance profiling including execution cycles, instruction count, stack usage, Flash/RAM utilization, and code size
+- Cross-platform firmware development across **ARM Cortex-M** and **RISC-V** microcontrollers
+- DSP and Neural Network optimization using **CMSIS-DSP**, **CMSIS-NN**, **NMSIS**, and **TensorFlow Lite Micro**
+- Hardware bring-up, peripheral validation, and low-level debugging
+- Python tooling for firmware automation, binary analysis, benchmarking, and build workflows
 
 ---
 
-📍 Germany &nbsp;·&nbsp; Open to full-time EU roles
-📧 karthik94870@gmail.com
-🔗 [linkedin.com/in/karthik-swaminathan98](https://linkedin.com/in/karthik-swaminathan98)
+## Platforms
+
+| Platform | Processor | Experience |
+|-----------|-----------|------------|
+| STM32N6 | ARM Cortex-M55 | Firmware optimization, MLPerf Tiny, ARM Helium (MVE) |
+| STM32H7 | ARM Cortex-M7 | Embedded AI deployment and benchmarking |
+| PSoC6 | ARM Cortex-M4 | DSP/NN benchmarking, TensorFlow Lite Micro |
+| Telink B91 | RISC-V Andes D25F | Bare-metal firmware, benchmarking, hardware bring-up |
+| ESP32 | Xtensa LX6 | Embedded firmware development |
+| Raspberry Pi | ARM Cortex-A53 | Linux and embedded development |
+
+---
+
+## Technologies
+
+### Languages
+
+`Embedded C` `C++` `Python` `ARM Assembly` `RISC-V Assembly`
+
+### Embedded Systems
+
+`Bare-Metal` `FreeRTOS` `Firmware Development` `Linker Scripts`
+`Memory Optimization` `Interrupts` `DMA`
+
+### Performance Engineering
+
+`Performance Benchmarking`
+`Cycle Counting`
+`Instruction Profiling`
+`Stack Analysis`
+`Flash/RAM Optimization`
+`ARM Helium (MVE)`
+
+### Embedded AI
+
+`TensorFlow Lite Micro`
+`MLPerf Tiny`
+`CMSIS-NN`
+`CMSIS-DSP`
+`NMSIS`
+
+### Tools
+
+`GCC`
+`Make`
+`CMake`
+`Git`
+`GDB`
+`JTAG`
+`SWD`
+`OpenOCD`
+`QEMU`
+`Renode`
+`STM32CubeIDE`
+`ModusToolbox`
+`AndeSight`
+
+---
+
+## Featured Projects
+
+| Repository | Description |
+|------------|-------------|
+| **ARM vs RISC-V DSP & NN Benchmark Suite** | Cycle-accurate benchmarking of DSP and neural network kernels across ARM Cortex-M and RISC-V on real hardware. |
+| **MCU Function Size Analyzer** | Python-based dependency-aware firmware code size analysis using linker map files and objdump. |
+
+More embedded firmware projects and performance optimization work will be added here as they are completed.
+
+---
+
+📍 Germany • Open to Embedded Firmware and Embedded Software opportunities across Europe
+
+📧 **karthik94870@gmail.com**
+
+🔗 **LinkedIn:** linkedin.com/in/karthik-swaminathan98
